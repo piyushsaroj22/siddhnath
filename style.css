@@ -454,7 +454,7 @@ nav ul li a.active::after {
 
     /* HERO */
     #home {
-        min-height: 70vh;
+        min-height: 94vh;
         padding: 60px 20px;
         margin: 0;
         background-position: center;
@@ -688,4 +688,5 @@ nav ul li a.active::after {
         margin: auto;
     }
 }
+
 
