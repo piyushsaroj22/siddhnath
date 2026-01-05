@@ -567,7 +567,7 @@ nav ul li a.active::after {
     }
     /* HERO */
     .home-content h2 {
-        font-size: 30px;
+        font-size: 27px;
     }
     .home-content p {
         font-size: 16px;
@@ -706,3 +706,4 @@ nav ul li a.active::after {
     }
 
 }
+
