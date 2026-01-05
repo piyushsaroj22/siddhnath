@@ -1,11 +1,13 @@
 const form = document.getElementById("contactForm");
 const statusText = document.getElementById("formStatus");
+const sections = document.querySelectorAll("section");
+const navLinks = document.querySelectorAll("nav ul li a");
 
 form.addEventListener("submit", function(e) {
     e.preventDefault(); // ⛔ default redirect stop
 
     statusText.textContent = "Sending message...";
-    statusText.style.color = "#c7c7c7";
+    statusText.style.color = "#4b5563";
 
     const formData = new FormData(form);
 
@@ -33,13 +35,7 @@ form.addEventListener("submit", function(e) {
         });
 });
 
-
-
-
-
-
-const sections = document.querySelectorAll("section");
-const navLinks = document.querySelectorAll("nav ul li a");
+// ===========================================================================
 
 window.addEventListener("scroll", () => {
     let current = "";
