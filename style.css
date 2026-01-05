@@ -158,7 +158,7 @@ nav ul li a.active::after {
     background-position: center 12%;
     background-repeat: no-repeat;
     /* Added a subtle gradient to keep text readable if image is missing, or just nice aesthetic */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("home.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("homeImg.png");
 }
 
 .home-content {
@@ -688,3 +688,4 @@ nav ul li a.active::after {
         margin: auto;
     }
 }
+
