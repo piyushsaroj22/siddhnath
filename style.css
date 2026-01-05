@@ -689,4 +689,21 @@ nav ul li a.active::after {
     }
 }
 
+.map-embed {
+    margin-top: 14px;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.12);
+}
+
+.map-embed iframe {
+    display: block;
+}
+
+.map-btn {
+    margin-top: 14px;
+    display: inline-block;
+    padding: 10px 16px;
+    font-size: 14px;
+}
 
